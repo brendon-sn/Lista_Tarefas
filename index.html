@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="./styles/index.css">
 </head>
 <body>
-    <h1>Lista de Tarefas</h1>
-    <button id="addTaskButton">Incluir Nova Tarefa</button>
+    <div class="header">
+        <h1>Lista de Tarefas</h1>
+        <button id="addTaskButton">Adicionar Tarefa</button>
+    </div>
 
     <table id="taskTable">
         <thead>
@@ -26,7 +28,7 @@
     <div id="taskModal" class="modal">
         <div class="modal-content">
             <span id="closeModal" class="close">&times;</span>
-            <h2>Adicionar Nova Tarefa</h2>
+            <h2 id="modalTitle">Adicionar Nova Tarefa</h2>
             <div id="errorMessage" style="color: red; display: none;"></div>
             <form id="taskForm">
                 <label>Nome da Tarefa: <input type="text" id="taskName" required></label><br>

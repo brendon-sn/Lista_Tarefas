@@ -18,12 +18,13 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML e CSS
 - JavaScript
-- JSON
+- Node.js
+- Mysql
 - Git e Github
 
 ## 💻 Projeto
 
-Este projeto é um sistema de CRUD para gerenciar tarefas. O sistema gera automaticamente um ID exclusivo para cada tarefa, facilitando a identificação e manipulação. Além disso, permite que os usuários alterem a ordem de apresentação das tarefas.
+O projeto é um sistema de CRUD para gerenciar tarefas que utiliza HTML, CSS, JavaScript, Node.js e MySQL para o desenvolvimento e Git para versionamento de código. Com o uso de UUID, o sistema gera automaticamente um identificador exclusivo para cada tarefa, facilitando sua identificação e manipulação no banco de dados. Além disso, o sistema permite que os usuários organizem a ordem das tarefas de forma personalizada e intuitiva.
 
 ## :memo: Licença
 
